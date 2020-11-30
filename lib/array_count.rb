@@ -1,4 +1,4 @@
-require "pry"
+
 
 def count_strings(array)
  
@@ -10,8 +10,7 @@ end
  
   
 def count_empty_strings(array)
-  array.count do |element|
-    binding.pry
+  array.count.empty do |element|
   element.class == ""
   
   end
