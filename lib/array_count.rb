@@ -10,7 +10,7 @@ end
  
   
 def count_empty_strings(array)
-  array.count.empty do |element|
+  array.empty.count do |element|
   element.class == ""
   
   end
