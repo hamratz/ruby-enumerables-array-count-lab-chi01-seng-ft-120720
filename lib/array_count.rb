@@ -12,7 +12,7 @@ end
 def count_empty_strings(array)
   array.count do |element, index|
   element.even?
-  element.class == String
+  #element.class == String
   
   end
 
