@@ -10,8 +10,8 @@ end
  
   
 def count_empty_strings(array)
-   array.empty? do |element|
-     array.count
+   array.count? do |element, index|
   element.class == String
+  index.empty?
   end
 end
